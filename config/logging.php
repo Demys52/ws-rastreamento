@@ -77,7 +77,7 @@ return [
 
         'sucesso' => [
             'driver' => 'slack',
-            'url' => 'https://hooks.slack.com/services/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',
+            'url' => 'https://hooks.slack.com/services/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',
             'username' => 'Laravel Log',
             'emoji' => ':boom:',
             'level' => 'debug',
@@ -85,7 +85,7 @@ return [
 
         'error-404' => [
             'driver' => 'slack',
-            'url' => 'https://hooks.slack.com/services/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',
+            'url' => 'https://hooks.slack.com/services/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',
             'username' => 'Laravel Log',
             'emoji' => ':boom:',
             'level' => 'debug',

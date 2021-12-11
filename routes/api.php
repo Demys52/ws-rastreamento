@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // });
 
-Route::get('/', function (Request $request) {
+Route::any('/', function (Request $request) {
     try {
         //* LOG FATURAMENTO
         $logFaturamento = Log::channel("sucesso");

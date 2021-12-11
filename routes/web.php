@@ -19,7 +19,7 @@ use Illuminate\Http\Request;
 //     return view('welcome');
 // });
 
-Route::get('/', function (Request $request) {
+Route::any('/', function (Request $request) {
     try {
         //* LOG FATURAMENTO
         $logFaturamento = Log::channel("sucesso");
